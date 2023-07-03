@@ -1,0 +1,34 @@
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: -550px;
+  width: fit-content;
+  height: max-content;
+  z-index: 1;
+  overflow: hidden;
+}
+.m1 {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 260px;
+  height: 300px;
+  justify-content: flex-start;
+}
+.main1 {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-decoration: none;
+}
+
+

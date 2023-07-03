@@ -1,0 +1,28 @@
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .bottom-center {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .bottom-center1 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .bottom-center2{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
